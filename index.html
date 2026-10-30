@@ -1,79 +1,262 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#172c26">
-<meta name="description" content="Whoosh Singapore delivers coordinated building repair, redecoration, painting, M&E, reinstatement and facilities services across Singapore.">
-<title>Whoosh Singapore | Building care, made cohesive</title>
-<link rel="preconnect" href="https://images.unsplash.com">
-<link rel="preconnect" href="https://whooshsingapore.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071934">
+<meta name="description" content="Whoosh Singapore delivers integrated building, engineering and facility solutions across Singapore. Building, repair, redecoration, M&E, reinstatement and more.">
+<title>Whoosh Singapore | Integrated Building Solutions</title>
+<link rel="icon" href="assets/site/whoosh-logo-from-pdf.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--ink:#172c26;--green:#315c49;--moss:#dce7dc;--paper:#f5f4ee;--white:#fffefa;--orange:#ee7547;--muted:#65736a;--line:#d9dfd5;--shadow:0 24px 65px rgba(23,44,38,.12);--radius:24px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;font-size:16px;line-height:1.6}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.container{width:min(1200px,calc(100% - 48px));margin-inline:auto}.topline{background:var(--ink);color:#e7eee6;font-size:12px;letter-spacing:.02em}.topline .container{display:flex;justify-content:space-between;gap:20px;padding:9px 0}.topline a:hover{color:#ffb18e}
-header{position:sticky;top:0;z-index:20;background:rgba(245,244,238,.94);backdrop-filter:blur(15px);border-bottom:1px solid rgba(23,44,38,.08)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:11px;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:-.04em;font-size:20px}.brandmark{height:38px;width:38px;border-radius:12px;background:var(--orange);display:grid;place-items:center;color:white;font-size:19px}.brand small{display:block;font:600 9px "DM Sans",sans-serif;color:var(--muted);letter-spacing:.17em;text-transform:uppercase;margin-top:-3px}.links{display:flex;align-items:center;gap:27px;font-size:13px;font-weight:600}.links>a:not(.btn):hover{color:var(--orange)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 19px;border-radius:999px;background:var(--ink);color:white;font-size:13px;font-weight:700;transition:.2s ease;border:1px solid var(--ink)}.btn:hover{background:var(--orange);border-color:var(--orange);transform:translateY(-2px)}.btn.light{background:transparent;color:var(--ink)}.btn.light:hover{background:var(--ink);color:white}.menu{display:none;border:0;background:none;font-size:25px;color:var(--ink)}
-.hero{padding:56px 0 70px}.hero-grid{display:grid;grid-template-columns:.89fr 1.11fr;gap:54px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--green);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";height:2px;width:24px;background:var(--orange)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.055em}h1{font-size:clamp(48px,6.1vw,78px);line-height:1.02;margin:20px 0}.hero h1 em{font-style:normal;color:var(--orange)}.lede{color:var(--muted);font-size:18px;max-width:480px;line-height:1.7}.hero-actions{display:flex;align-items:center;gap:13px;margin-top:30px;flex-wrap:wrap}.hero-note{display:flex;align-items:center;gap:11px;color:var(--muted);font-size:12px;margin-top:27px}.check{width:23px;height:23px;border-radius:50%;background:var(--moss);display:grid;place-items:center;color:var(--green);font-size:13px;font-weight:700}.hero-art{position:relative;min-height:510px;border-radius:28px;overflow:hidden;background:#788779}.hero-art>img{width:100%;height:510px;object-fit:cover;filter:saturate(.78)}.hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,44,38,.02) 38%,rgba(23,44,38,.76) 100%)}.image-caption{position:absolute;z-index:2;left:28px;right:28px;bottom:24px;color:white;display:flex;justify-content:space-between;align-items:end;gap:15px}.image-caption strong{font:700 21px Manrope,sans-serif;display:block}.image-caption span{font-size:12px;color:#e2e8de}.floating-tag{position:absolute;z-index:3;top:23px;left:23px;background:var(--white);padding:12px 15px;border-radius:14px;font-size:11px;font-weight:700;box-shadow:var(--shadow)}.floating-tag b{color:var(--orange);font-size:16px;display:block;font-family:Manrope,sans-serif}
-.stats{margin-top:47px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);padding-top:20px}.stat strong{font:800 23px Manrope,sans-serif;letter-spacing:-.05em;display:block}.stat span{font-size:11px;color:var(--muted)}
-.section{padding:92px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:36px;margin-bottom:34px}.section-head h2{font-size:clamp(34px,4vw,50px);line-height:1.07;margin:12px 0 0;max-width:650px}.section-head p{margin:0;max-width:400px;color:var(--muted);font-size:14px}.services{background:var(--white)}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.service-card{border:1px solid var(--line);border-radius:20px;padding:23px;background:#fff;min-height:206px;display:flex;flex-direction:column;transition:.2s}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#c2d0c1}.service-icon{width:47px;height:47px;background:#fff3eb;border-radius:14px;display:grid;place-items:center;margin-bottom:20px}.service-icon img{width:34px;height:34px;object-fit:contain}.service-card h3{font-size:18px;letter-spacing:-.035em;margin:0 0 7px}.service-card p{font-size:13px;color:var(--muted);margin:0;line-height:1.65}.service-foot{margin-top:auto;padding-top:15px;color:var(--green);font-size:11px;font-weight:700}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:68px;align-items:center}.split-image{position:relative;min-height:450px;border-radius:26px;overflow:hidden;background:#c9d2c5}.split-image img{width:100%;height:450px;object-fit:cover}.stamp{position:absolute;right:20px;bottom:20px;background:var(--orange);color:white;width:112px;height:112px;border-radius:50%;display:grid;place-items:center;text-align:center;font:800 17px/1.1 Manrope,sans-serif;transform:rotate(8deg)}.split-copy h2{font-size:clamp(36px,4vw,53px);line-height:1.06;margin:14px 0 18px}.split-copy p{color:var(--muted);font-size:15px}.check-list{display:grid;grid-template-columns:1fr 1fr;gap:13px 15px;margin:26px 0 30px}.check-item{font-size:13px;font-weight:600;display:flex;gap:9px;align-items:start}.check-item i{font-style:normal;color:var(--orange);font-size:17px;line-height:1.1}
-.sectors{background:var(--ink);color:white;padding:82px 0}.sectors .eyebrow{color:#b9d1bd}.sectors h2{font-size:clamp(35px,4vw,52px);margin:14px 0 10px}.sectors p{max-width:560px;color:#bdc8bf;font-size:14px}.sector-grid{margin-top:34px;display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.sector{border:1px solid rgba(255,255,255,.18);border-radius:17px;padding:19px 16px;min-height:108px;display:flex;flex-direction:column;justify-content:space-between}.sector b{font:700 15px Manrope,sans-serif}.sector span{color:#aab9ad;font-size:11px}.sector:nth-child(2n){background:rgba(255,255,255,.055)}
-.projects{background:var(--paper)}.project-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}.project-feature{position:relative;min-height:390px;border-radius:23px;overflow:hidden;background:#97a58f}.project-feature img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.project-feature:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(23,44,38,.85),transparent 72%)}.project-title{position:absolute;bottom:24px;left:26px;right:26px;z-index:1;color:white}.project-title .pill{display:inline-block;padding:6px 10px;border-radius:99px;background:var(--orange);font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.project-title h3{font-size:27px;margin:13px 0 4px}.project-title p{font-size:12px;color:#e4e9e4;margin:0}.project-side{display:grid;grid-template-rows:1fr 1fr;gap:16px}.project-row{border-radius:22px;padding:25px;background:var(--moss);display:flex;flex-direction:column;justify-content:space-between;min-height:185px}.project-row:nth-child(2){background:#e9e0d1}.project-row .type{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--green)}.project-row h3{font-size:21px;margin:12px 0 4px}.project-row p{font-size:12px;color:var(--muted);margin:0}.project-row .year{font:700 11px Manrope,sans-serif;color:var(--green);margin-top:17px}
-.cred{background:var(--white)}.cred-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:start}.cred h2{font-size:clamp(35px,4vw,49px);line-height:1.08;margin:13px 0}.cred p{font-size:14px;color:var(--muted)}.registration-list{display:grid;grid-template-columns:1fr 1fr;gap:11px}.registration{border:1px solid var(--line);border-radius:15px;padding:16px 17px;background:#fff;display:flex;gap:13px;align-items:center}.registration strong{width:51px;height:38px;flex-shrink:0;border-radius:11px;background:var(--moss);display:grid;place-items:center;font-size:11px;color:var(--green)}.registration span{font-size:12px;font-weight:600;line-height:1.35}.registration small{display:block;font-size:10px;color:var(--muted);font-weight:400;margin-top:3px}
-.cta{padding:70px 0;background:#e7ebdf}.cta-box{background:var(--orange);border-radius:25px;padding:44px 48px;display:flex;justify-content:space-between;align-items:center;gap:30px;color:white}.cta-box h2{font-size:clamp(32px,4vw,46px);line-height:1.06;margin:0 0 9px;max-width:600px}.cta-box p{margin:0;color:#fff0e8;font-size:14px}.cta-box .btn{background:white;border-color:white;color:var(--ink);flex-shrink:0}.cta-box .btn:hover{background:var(--ink);border-color:var(--ink);color:white}
-footer{background:var(--ink);color:#f4f4ed;padding:52px 0 22px}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr 1fr;gap:35px;padding-bottom:38px}.footer-brand{font:800 22px Manrope,sans-serif}.footer-brand p{font:400 13px/1.7 "DM Sans",sans-serif;color:#b9c4ba;max-width:270px;margin-top:14px}.footer-col h4{font:700 11px "DM Sans",sans-serif;text-transform:uppercase;letter-spacing:.13em;color:#b1c2b2;margin:5px 0 15px}.footer-col a,.footer-col span{display:block;font-size:12px;color:#f0f1e9;margin:9px 0}.footer-col a:hover{color:#ffad88}.footnote{border-top:1px solid rgba(255,255,255,.17);padding-top:17px;display:flex;justify-content:space-between;gap:18px;color:#a9b8ac;font-size:10px}.floating-call{display:none}
-@media(max-width:900px){.links{gap:15px}.hero-grid{gap:28px}.hero-art,.hero-art>img{min-height:430px;height:430px}.sector-grid{grid-template-columns:repeat(3,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:700px){.container{width:min(100% - 32px,560px)}.topline .container{justify-content:center}.topline .container span:first-child{display:none}.nav{height:68px}.menu{display:block}.links{display:none;position:absolute;left:0;right:0;top:68px;background:var(--paper);padding:15px 22px 23px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line);gap:0}.links.open{display:flex}.links>a{padding:12px 0}.links .btn{margin-top:9px}.hero{padding:34px 0 52px}.hero-grid{grid-template-columns:1fr;gap:27px}.hero h1{font-size:55px}.lede{font-size:16px}.hero-art,.hero-art>img{height:390px;min-height:390px}.stats{margin-top:30px}.stat strong{font-size:20px}.section{padding:67px 0}.section-head{display:block}.section-head p{margin-top:14px}.service-grid{grid-template-columns:1fr 1fr}.service-card{padding:18px;min-height:210px}.split,.cred-grid{grid-template-columns:1fr;gap:32px}.split-image,.split-image img{height:360px;min-height:360px}.check-list{grid-template-columns:1fr 1fr}.sectors{padding:64px 0}.sector-grid{grid-template-columns:1fr 1fr}.sector{min-height:96px}.project-grid{grid-template-columns:1fr}.project-feature{min-height:350px}.project-side{grid-template-rows:auto}.project-row{min-height:160px}.registration-list{grid-template-columns:1fr}.cta{padding:45px 0}.cta-box{padding:30px 25px;display:block}.cta-box .btn{margin-top:23px}.footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px}.footnote{display:block}.footnote span{display:block;margin-top:6px}.floating-call{display:flex;position:fixed;z-index:19;right:16px;bottom:16px;width:52px;height:52px;border-radius:50%;background:var(--orange);color:white;align-items:center;justify-content:center;font-size:21px;box-shadow:0 10px 24px rgba(0,0,0,.18)}}
-@media(max-width:390px){.service-grid{grid-template-columns:1fr}.hero h1{font-size:47px}.hero-art,.hero-art>img{height:330px;min-height:330px}.stats{gap:8px}.stat span{font-size:10px}}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="topline"><div class="container"><span>Building care across Singapore</span><span>Mon–Sat · 8:00 am–7:00 pm &nbsp; | &nbsp; <a href="tel:+6560293124">+65 6029 3124</a></span></div></div>
-<header><div class="container nav">
-<a class="brand" href="#home" aria-label="Whoosh Singapore home"><span class="brandmark">W</span><span>WHOOSH<small>SINGAPORE</small></span></a>
-<button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
-<nav class="links" aria-label="Main navigation"><a href="#services">Services</a><a href="#sectors">Who we serve</a><a href="#projects">Our work</a><a href="#about">About</a><a class="btn" href="#contact">Get in touch <span>↗</span></a></nav>
-</div></header>
+<div class="utility">
+ <div class="wrap utility-inner">
+  <div class="utility-contact"><a href="tel:+6591834050">☎ <span>+65 9183 4050</span></a><a href="tel:+6560293124">☎ <span>+65 6029 3124</span></a><a href="mailto:md@whooshsingapore.com">✉ <span>md@whooshsingapore.com</span></a></div>
+  <a class="utility-address" href="https://maps.google.com/?q=The+Splendour,+31+Bukit+Batok+Crescent,+Singapore+658070" target="_blank" rel="noreferrer">⌖ The Splendour, 31 Bukit Batok Crescent, #01-13, Singapore 658070</a>
+ </div>
+</div>
+<header class="site-header">
+ <div class="wrap nav-wrap">
+  <a class="logo" href="#home" aria-label="Whoosh Singapore home"><img src="assets/site/whoosh-logo-horizontal.png" alt="Whoosh Singapore Pte Ltd"></a>
+  <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="nav-links" aria-label="Main navigation">
+   <a class="active" href="#home">Home</a><a href="#about">About us</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#industries">Industries</a><a href="#quality">Safety & quality</a><a href="#careers">Careers</a><a href="#contact">Contact us</a><a class="button button-red nav-quote" href="#contact">Request a quote <span>↗</span></a>
+  </nav>
+ </div>
+</header>
+
 <main id="home">
-<section class="hero"><div class="container hero-grid">
-<div><span class="eyebrow">A Whoosh Group company · Singapore</span><h1>Building care,<br>made <em>cohesive.</em></h1><p class="lede">One dependable team for the work that keeps buildings safe, functional and looking their best—from planned maintenance to complex reinstatement.</p>
-<div class="hero-actions"><a class="btn" href="#contact">Talk to our team <span>↗</span></a><a class="btn light" href="#services">Explore services <span>↓</span></a></div>
-<div class="hero-note"><span class="check">✓</span><span>Coordinated building services for residential, commercial and industrial properties.</span></div>
-<div class="stats"><div class="stat"><strong>2008</strong><span>Established in Singapore</span></div><div class="stat"><strong>85+</strong><span>Skilled team members*</span></div><div class="stat"><strong>One team</strong><span>Across multiple trades</span></div></div></div>
-<div class="hero-art"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1300&q=85" alt="Modern commercial building facade in Singapore" fetchpriority="high"><div class="floating-tag"><b>Since 2008</b>Built on experience</div><div class="image-caption"><div><strong>Care for every part of the building.</strong><span>From first inspection to final handover.</span></div><span>01 / 04</span></div></div>
-</div></section>
-<section class="section services" id="services"><div class="container"><div class="section-head"><div><span class="eyebrow">What we do</span><h2>Practical expertise.<br>One coordinated partner.</h2></div><p>Bring the right trades together under one project team. We plan the work around your site, schedule and operating needs.</p></div>
-<div class="service-grid">
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-paint.jpg" alt=""></div><h3>Painting & façade works</h3><p>Internal and external painting, redecoration, rope access and building façade maintenance.</p><div class="service-foot">Finishing & exterior care ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-construction.jpg" alt=""></div><h3>Repairs & redecoration</h3><p>Building repairs, waterproofing, touch-ups and improvement works for occupied properties.</p><div class="service-foot">Repair with care ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-Electrical.jpg" alt=""></div><h3>Electrical & M&E</h3><p>Electrical installation and maintenance, plus coordinated mechanical and electrical works.</p><div class="service-foot">Installation & maintenance ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-AC.jpg" alt=""></div><h3>Air-conditioning</h3><p>Air-conditioning installation, servicing and maintenance for building environments.</p><div class="service-foot">Comfort & performance ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-plumbing.jpg" alt=""></div><h3>Plumbing & sanitary</h3><p>Plumbing, sanitary fitting, repair and maintenance for residential and commercial sites.</p><div class="service-foot">Water systems ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-construction.jpg" alt=""></div><h3>Demolition & reinstatement</h3><p>Careful strip-out, hacking and reinstatement for lease handovers and space changes.</p><div class="service-foot">Ready for the next chapter ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-construction.jpg" alt=""></div><h3>Construction & engineering</h3><p>Minor construction and improvement works coordinated to suit site requirements.</p><div class="service-foot">Build & improve ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-EHS.jpg" alt=""></div><h3>ISO & EHS consultancy</h3><p>Environmental, health and safety support, with ISO consultancy for organisations.</p><div class="service-foot">Systems & standards ↗</div></article>
-<article class="service-card"><div class="service-icon"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/orange-construction.jpg" alt=""></div><h3>Facilities & solar upkeep</h3><p>Facility maintenance, building upkeep and solar-panel installation and maintenance.</p><div class="service-foot">Long-term property care ↗</div></article>
-</div></div></section>
-<section class="section" id="about"><div class="container split"><div class="split-image"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/Champions-Way.jpg" alt="Whoosh Singapore painting project at Champions Green" loading="lazy"><div class="stamp">Care in<br>every detail</div></div><div class="split-copy"><span class="eyebrow">About Whoosh Singapore</span><h2>Reliable work starts with a team that sees the whole site.</h2><p>Founded in 2008 by S. Thiruchelvam, Whoosh Singapore has grown into a building services contractor supporting residential, commercial and industrial properties. Our team brings multiple services together with clear coordination, practical planning and care for the people using each space.</p><p>From high-rise residential painting to electrical installation and reinstatement, we work to help clients maintain, improve and hand over properties with confidence.</p><div class="check-list"><div class="check-item"><i>↗</i>Experienced site teams</div><div class="check-item"><i>↗</i>Multi-trade coordination</div><div class="check-item"><i>↗</i>Safety-conscious delivery</div><div class="check-item"><i>↗</i>Clear project communication</div></div><a class="btn" href="#contact">Meet your project partner <span>↗</span></a></div></div></section>
-<section class="sectors" id="sectors"><div class="container"><span class="eyebrow">Where we work</span><h2>Different places. Thoughtful delivery.</h2><p>We plan around each property's function, users and operating schedule—whether the task is a repaint, maintenance call or a full reinstatement package.</p><div class="sector-grid"><div class="sector"><b>Residential</b><span>Homes · condominiums · HDB</span></div><div class="sector"><b>Commercial</b><span>Offices · business spaces</span></div><div class="sector"><b>Retail & lifestyle</b><span>Shops · malls · hospitality</span></div><div class="sector"><b>Institutional</b><span>Schools · healthcare · clubs</span></div><div class="sector"><b>Industrial</b><span>Warehouses · facilities · sites</span></div></div></div></section>
-<section class="section projects" id="projects"><div class="container"><div class="section-head"><div><span class="eyebrow">Selected work</span><h2>Trusted across Singapore's built environment.</h2></div><p>A selection of completed work and project records published by Whoosh Singapore.</p></div>
-<div class="project-grid"><article class="project-feature"><img src="https://whooshsingapore.com/wp-content/uploads/2024/03/Champions-Way.jpg" alt="Champions Green HDB painting project" loading="lazy"><div class="project-title"><span class="pill">Painting works · 2024</span><h3>Champions Green</h3><p>Painting works at the new HDB development in Woodlands.</p></div></article><div class="project-side"><article class="project-row"><div><span class="type">Repair & repainting</span><h3>Parkway Parade</h3><p>Shopping centre repair and repainting works.</p></div><span class="year">Listed in project track records · 2025</span></article><article class="project-row"><div><span class="type">Façade & painting</span><h3>Kwang Wai Shiu Hospital</h3><p>Façade maintenance and painting works.</p></div><span class="year">Listed in project track records · 2024</span></article></div></div></div></section>
-<section class="section cred"><div class="container cred-grid"><div><span class="eyebrow">Capability & registrations</span><h2>Qualified for the work we take on.</h2><p>Whoosh Singapore's current company profile lists the following BCA registrations and builder licence. Please contact us to confirm scope and current registration details for your project.</p><a class="btn light" href="https://www1.bca.gov.sg/" target="_blank" rel="noreferrer">BCA Singapore ↗</a></div><div class="registration-list"><div class="registration"><strong>CR01</strong><span>Minor Construction Works<small>Single grade · BCA</small></span></div><div class="registration"><strong>CR09</strong><span>Repairs & Redecoration<small>L4 · BCA</small></span></div><div class="registration"><strong>CR13</strong><span>Waterproofing Installation<small>L1 · BCA</small></span></div><div class="registration"><strong>ME01</strong><span>Air-conditioning & Ventilation<small>L1 · BCA</small></span></div><div class="registration"><strong>ME05</strong><span>Electrical Engineering<small>L3 · BCA</small></span></div><div class="registration"><strong>GB2</strong><span>General Builder Class 2<small>BCA licensed builder</small></span></div></div></div></section>
-<section class="cta" id="contact"><div class="container"><div class="cta-box"><div><h2>Have a building project in mind?</h2><p>Tell us what your site needs. We’ll help you identify a practical next step.</p></div><a class="btn" href="mailto:whooshsingapore@gmail.com?subject=Project%20enquiry%20for%20Whoosh%20Singapore">Request a consultation <span>↗</span></a></div></div></section>
+<section class="hero">
+ <div class="hero-surface"></div>
+ <div class="wrap hero-layout">
+  <div class="hero-copy">
+   <div class="kicker light-kicker"><i></i> WHOOSH SINGAPORE · A WHOOSH GROUP COMPANY</div>
+   <h1>Building solutions<br>that keep <em>Singapore</em><br>moving.</h1>
+   <p>Integrated building, engineering and facility solutions.<br><strong>Engineered for safety. Built for excellence.</strong></p>
+   <div class="hero-actions"><a class="button button-red" href="#services">Our services <span>→</span></a><a class="button button-outline" href="#projects">View projects <span>→</span></a></div>
+   <div class="hero-proof"><span class="proof-icon">✓</span><span>One coordinated team for the places people live, work and gather.</span></div>
+  </div>
+  <div class="hero-visual">
+   <div class="hero-main-photo"><img src="assets/site/techview.jpg" alt="Whoosh project at Techview, Kaki Bukit"></div>
+   <div class="hero-photo-stack"><img src="assets/projects/champions-green.jpg" alt="Champions Green project"><img src="assets/projects/parkway-parade.jpg" alt="Parkway Parade project"></div>
+   <div class="hero-image-label"><span>Selected project work</span><b>Built on experience.<br>Delivered with pride.</b></div>
+   <div class="hero-index"><span>01</span><i></i><span>03</span></div>
+  </div>
+ </div>
+ <div class="wrap service-ribbon" aria-label="Core service areas">
+  <a href="#services"><span class="ribbon-icon">⌂</span><b>Building &<br>construction</b></a>
+  <a href="#services"><span class="ribbon-icon">▤</span><b>Repair &<br>redecoration</b></a>
+  <a href="#services"><span class="ribbon-icon">◈</span><b>Waterproofing<br>& sealant</b></a>
+  <a href="#services"><span class="ribbon-icon">⌁</span><b>Mechanical &<br>engineering</b></a>
+  <a href="#services"><span class="ribbon-icon">ϟ</span><b>Electrical<br>services</b></a>
+  <a href="#services"><span class="ribbon-icon">❄</span><b>Air-conditioning<br>services</b></a>
+  <a href="#services"><span class="ribbon-icon">⌂</span><b>Facility<br>management</b></a>
+ </div>
+</section>
+
+<section class="stats-section">
+ <div class="wrap stats-grid">
+  <div class="stat"><span class="stat-symbol">✹</span><div><strong>20+</strong><b>Years of experience</b><small>Serving Singapore since 2008</small></div></div>
+  <div class="stat"><span class="stat-symbol">♧</span><div><strong>85+</strong><b>Skilled professionals</b><small>People behind every project</small></div></div>
+  <div class="stat"><span class="stat-symbol">▥</span><div><strong>30+</strong><b>Successful projects</b><small>Across multiple property types</small></div></div>
+  <div class="stat"><span class="stat-symbol">⌖</span><div><strong>Singapore</strong><b>Based company</b><small>Local teams and coordination</small></div></div>
+ </div>
+</section>
+
+<section class="section about-section" id="about">
+ <div class="wrap">
+  <div class="about-grid">
+   <div class="section-intro">
+    <div class="kicker"><i></i> ABOUT WHOOSH</div>
+    <h2>Building trust.<br>Delivering excellence.</h2>
+    <p>Whoosh Singapore Pte Ltd provides integrated building, engineering and facility solutions for residential, commercial and industrial properties. Founded in 2008 by S. Thiruchelvam, we have grown into a team of more than 85 skilled professionals.</p>
+    <p>From repair and redecoration to M&E services and reinstatement, we bring clear coordination and practical site planning to every job.</p>
+    <a class="text-link" href="#company">Read more about us <span>→</span></a>
+   </div>
+   <div class="value-cards">
+    <article class="value-card"><img src="assets/projects/tengah-park-c8.jpg" alt="Electrical installation project"><div><b>Safety first</b><p>We give careful attention to safe work practices, site requirements and the people who use each space.</p></div></article>
+    <article class="value-card"><img src="assets/projects/kwang-wai-shiu.jpg" alt="Kwang Wai Shiu Hospital project"><div><b>Quality driven</b><p>We aim for reliable workmanship, thoughtful finishing and consistent coordination.</p></div></article>
+    <article class="value-card"><img src="assets/projects/icon-village.jpg" alt="ICON Village project"><div><b>On time, every time</b><p>We plan work around project milestones and operational needs to keep delivery moving.</p></div></article>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section services-section" id="services">
+ <div class="wrap">
+  <div class="section-heading">
+   <div><div class="kicker"><i></i> OUR SERVICES</div><h2>One partner.<br>Many ways to move work forward.</h2></div>
+   <p>Explore Whoosh’s core capabilities. Open any service for more detail, then tell us what your site needs.</p>
+  </div>
+  <div class="service-cards">
+   <details class="service-card" open><summary><span class="service-number">01</span><span class="service-title">Building & construction</span><span class="service-plus">+</span></summary><p>Construction and improvement works across residential, commercial and industrial premises, with project coordination from planning through completion.</p><div class="tag-row"><span>General building</span><span>Renovation</span><span>Partitions & ceilings</span><span>Flooring works</span></div></details>
+   <details class="service-card"><summary><span class="service-number">02</span><span class="service-title">Repair & redecoration</span><span class="service-plus">+</span></summary><p>Repair and refurbishment works that help restore a property and keep it in good condition.</p><div class="tag-row"><span>Structural repairs</span><span>Surface restoration</span><span>Painting & finishing</span><span>Fixture replacement</span></div></details>
+   <details class="service-card"><summary><span class="service-number">03</span><span class="service-title">Painting & façade works</span><span class="service-plus">+</span></summary><p>Interior and exterior painting, high-rise façade works and finishing for homes, businesses and larger properties.</p><div class="tag-row"><span>Interior & exterior</span><span>Rope access</span><span>Specialty finishes</span><span>Robotic painting & cleaning</span></div></details>
+   <details class="service-card"><summary><span class="service-number">04</span><span class="service-title">Waterproofing & sealant</span><span class="service-plus">+</span></summary><p>Waterproofing, sealing and moisture protection to help safeguard building surfaces and reduce water-related damage.</p><div class="tag-row"><span>Leakage repair</span><span>Waterproofing</span><span>Sealant works</span></div></details>
+   <details class="service-card"><summary><span class="service-number">05</span><span class="service-title">Electrical & M&E</span><span class="service-plus">+</span></summary><p>Electrical wiring, lighting and equipment installation, maintenance, upgrades and troubleshooting.</p><div class="tag-row"><span>Electrical wiring</span><span>Lighting</span><span>Panel upgrades</span><span>M&E maintenance</span></div></details>
+   <details class="service-card"><summary><span class="service-number">06</span><span class="service-title">Air-conditioning</span><span class="service-plus">+</span></summary><p>Air-conditioning installation, servicing and maintenance for comfortable, dependable building environments.</p><div class="tag-row"><span>Installation</span><span>Service</span><span>Maintenance</span></div></details>
+   <details class="service-card"><summary><span class="service-number">07</span><span class="service-title">Plumbing & sanitary</span><span class="service-plus">+</span></summary><p>Plumbing and sanitary installation, repair, maintenance, inspection and upgrade works.</p><div class="tag-row"><span>Installation & repair</span><span>Inspection</span><span>Renovation & upgrades</span></div></details>
+   <details class="service-card"><summary><span class="service-number">08</span><span class="service-title">Solar installation & upkeep</span><span class="service-plus">+</span></summary><p>Solar-panel installation and maintenance, including site assessment, scheduled inspections and cleaning.</p><div class="tag-row"><span>Site assessment</span><span>Installation</span><span>Inspection & cleaning</span></div></details>
+   <details class="service-card"><summary><span class="service-number">09</span><span class="service-title">Demolition & reinstatement</span><span class="service-plus">+</span></summary><p>Selective demolition, strip-out and reinstatement works for lease handovers, renovation and new occupancy.</p><div class="tag-row"><span>Residential</span><span>Commercial</span><span>Selective demolition</span><span>Deconstruction</span></div></details>
+   <details class="service-card"><summary><span class="service-number">10</span><span class="service-title">Facilities & maintenance</span><span class="service-plus">+</span></summary><p>Preventive maintenance, general repairs, upgrades and facility support to keep properties operating smoothly.</p><div class="tag-row"><span>Preventive maintenance</span><span>General repairs</span><span>Facility upgrades</span><span>Groundskeeping</span></div></details>
+   <details class="service-card"><summary><span class="service-number">11</span><span class="service-title">ISO & EHS consultancy</span><span class="service-plus">+</span></summary><p>Environmental, health and safety consultancy to support compliance, risk management and practical improvements.</p><div class="tag-row"><span>Risk assessments</span><span>Compliance audits</span><span>Management systems</span><span>Training</span></div></details>
+   <details class="service-card"><summary><span class="service-number">12</span><span class="service-title">Commercial reinstatement</span><span class="service-plus">+</span></summary><p>Coordinated restoration of commercial and residential spaces to the required condition at the end of a lease or before new occupancy.</p><div class="tag-row"><span>Strip-out</span><span>Repairs</span><span>Finishing</span><span>Handover coordination</span></div></details>
+  </div>
+  <div class="service-gallery"><div class="service-gallery-copy"><span class="eyebrow-red">BUILT FOR REAL SITES</span><h3>Capability you can see.</h3><p>A selection of service and site imagery from Whoosh Singapore’s existing portfolio.</p></div><div class="service-gallery-images"><img src="assets/site/service6.jpg" alt="Building service work" loading="lazy"><img src="assets/site/demolition-3.jpg" alt="Demolition and reinstatement work" loading="lazy"><img src="assets/site/facility-7.jpg" alt="Facility maintenance work" loading="lazy"></div></div>
+ </div>
+</section>
+
+<section class="section projects-section" id="projects">
+ <div class="wrap">
+  <div class="section-heading">
+   <div><div class="kicker"><i></i> FEATURED PROJECTS</div><h2>Built on experience.<br>Delivered with pride.</h2></div>
+   <a class="button button-white" href="#project-gallery">View all projects <span>→</span></a>
+  </div>
+  <div class="featured-projects">
+   <a class="featured-project" href="#project-gallery"><img src="assets/projects/singtel-data-centre.jpg" alt="Singtel Data Centre repairs and repainting"><span class="featured-overlay"><small>Repair & repainting</small><b>Singtel Data Centre</b></span></a>
+   <a class="featured-project" href="#project-gallery"><img src="assets/projects/parkway-parade.jpg" alt="Parkway Parade repairs and repainting"><span class="featured-overlay"><small>Repair & repainting</small><b>Parkway Parade</b></span></a>
+   <a class="featured-project" href="#project-gallery"><img src="assets/projects/sutd.jpg" alt="SUTD repainting works"><span class="featured-overlay"><small>Painting works</small><b>SUTD</b></span></a>
+   <a class="featured-project" href="#project-gallery"><img src="assets/projects/kwang-wai-shiu.jpg" alt="Kwang Wai Shiu Hospital façade work"><span class="featured-overlay"><small>Façade maintenance</small><b>Kwang Wai Shiu Hospital</b></span></a>
+   <a class="featured-project" href="#project-gallery"><img src="assets/projects/icon-village.jpg" alt="ICON Village exterior work"><span class="featured-overlay"><small>External painting & sealant</small><b>ICON Village</b></span></a>
+   <a class="featured-project" href="#project-gallery"><img src="assets/projects/champions-green.jpg" alt="Champions Green painting works"><span class="featured-overlay"><small>Painting works</small><b>Champions Green</b></span></a>
+  </div>
+  <div class="project-partners"><span>Project references include</span><img src="assets/testimonials/exyte.jpg" alt="Exyte Services"><img src="assets/testimonials/ocl.jpg" alt="OCL Building"><img src="assets/testimonials/t3-international.jpg" alt="T3 International"></div>
+  <div class="portfolio" id="project-gallery">
+   <div class="portfolio-heading"><div><div class="kicker"><i></i> PROJECT PORTFOLIO</div><h3>More of our work</h3><p>Browse the 41 project entries and images from the existing Whoosh Singapore portfolio.</p></div><span class="project-count"><b id="visible-count">41</b> project stories</span></div>
+   <div class="filters" role="group" aria-label="Filter projects">
+    <button class="filter active" data-filter="all">All projects</button><button class="filter" data-filter="demolition">Demolition & reinstatement</button><button class="filter" data-filter="electrical">Electrical</button><button class="filter" data-filter="painting">Painting</button><button class="filter" data-filter="repair">Repair & redecoration</button>
+   </div>
+   <div class="project-grid" id="project-grid"></div>
+  </div>
+ </div>
+</section>
+
+<section class="section industries-section" id="industries">
+ <div class="wrap">
+  <div class="section-heading"><div><div class="kicker"><i></i> INDUSTRIES WE SERVE</div><h2>Different spaces.<br>Different ways to deliver.</h2></div><p>We adapt the plan to each property’s purpose, site conditions and working hours.</p></div>
+  <div class="industry-grid">
+   <article><span class="industry-icon">▥</span><h3>Commercial</h3><p>Offices, business parks, retail spaces and the CBD.</p></article>
+   <article><span class="industry-icon">⚙</span><h3>Industrial</h3><p>Factories, warehouses and industrial facilities.</p></article>
+   <article><span class="industry-icon">⌂</span><h3>Residential</h3><p>Condominiums, HDB homes and private developments.</p></article>
+   <article><span class="industry-icon">✚</span><h3>Institutional</h3><p>Hospitals, schools, clubs and public facilities.</p></article>
+   <article><span class="industry-icon">▣</span><h3>Retail</h3><p>Shopping centres, retail outlets and customer spaces.</p></article>
+   <article><span class="industry-icon">⌁</span><h3>Infrastructure</h3><p>Building systems and public-use environments.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section records-section">
+ <div class="wrap records-layout">
+  <div><div class="kicker light-kicker"><i></i> PROJECT TRACK RECORD</div><h2>Progress you can plan around.</h2><p>Recent ongoing and completed work listed on Whoosh Singapore’s project track-record page.</p><a class="button button-outline" href="#project-gallery">Explore portfolio <span>→</span></a></div>
+  <div class="record-table">
+   <div class="record-row record-head"><span>Work</span><span>Project</span><span>Target / year</span></div>
+   <div class="record-row"><span>Electrical installation</span><b>YSN 5 C9 & C10, Yishun</b><span>2027</span></div>
+   <div class="record-row"><span>Repair & repainting</span><b>Singtel Data Centre</b><span>2026</span></div>
+   <div class="record-row"><span>Repairs & redecoration</span><b>HDB Jurong West · Blks 667–669</b><span>2026</span></div>
+   <div class="record-row"><span>Repair & repainting</span><b>Whampoa · 17 blocks</b><span>2026</span></div>
+   <div class="record-row"><span>Electrical installation</span><b>Ulu Pandan C2</b><span>2026</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="section quality-section" id="quality">
+ <div class="wrap quality-layout">
+  <div class="quality-copy"><div class="kicker light-kicker"><i></i> SAFETY & QUALITY</div><h2>Our top priority,<br>in every project.</h2><p>We are committed to maintaining high standards in safety, quality and environmental responsibility across our work.</p><a class="button button-outline" href="#registrations">View registrations <span>→</span></a></div>
+  <div class="credential-cards">
+   <article><img src="assets/standards/iso-9001.jpg" alt="ISO 9001:2015 certificate"><b>ISO 9001</b><span>Quality Management System</span></article>
+   <article><img src="assets/standards/iso-45001.jpg" alt="ISO 45001:2018 certificate"><b>ISO 45001</b><span>Occupational Health & Safety</span></article>
+   <article><img src="assets/standards/bizsafe.jpg" alt="bizSAFE certificate"><b>bizSAFE</b><span>Workplace Safety Management</span></article>
+   <article class="ehs-card"><span class="ehs-symbol">✓</span><b>EHS consultancy</b><span>Safety audits, risk assessments & compliance support</span></article>
+  </div>
+ </div>
+ <div class="wrap accreditation-strip"><img src="assets/standards/certificate1.jpg" alt="ISO 45001 accreditation mark"><img src="assets/standards/certificate2.jpg" alt="Accredited certification body mark"><img src="assets/standards/certificate3.jpg" alt="ISO 9001 accreditation mark"><img src="assets/standards/certificate4.jpg" alt="International Accreditation Forum mark"><img src="assets/standards/certificate5.jpg" alt="Accredited certification body mark"></div>
+</section>
+
+<section class="section registrations-section" id="registrations">
+ <div class="wrap registration-layout">
+  <div><div class="kicker"><i></i> BCA REGISTRATIONS</div><h2>Registered capabilities.</h2><p>Selected categories and grades listed on the existing Whoosh Singapore company profile. Please confirm current status and scope for your project.</p></div>
+  <div class="registration-grid">
+   <div><b>CR01</b><span>Minor Construction Works</span><small>Single grade</small></div><div><b>CR09</b><span>Repairs & Redecoration</span><small>L4</small></div><div><b>CR13</b><span>Waterproofing Installation</span><small>L1</small></div><div><b>ME01</b><span>Air-conditioning, Refrigeration & Ventilation Works</span><small>L1</small></div><div><b>ME05</b><span>Electrical Engineering</span><small>L3</small></div><div><b>GB2</b><span>General Builder Class 2</span><small>Builder licence</small></div>
+  </div>
+ </div>
+</section>
+
+<section class="section company-section" id="company">
+ <div class="wrap company-layout">
+  <div class="company-copy"><div class="kicker"><i></i> OUR STORY</div><h2>Built with people<br>and places in mind.</h2><p>Whoosh Singapore was founded by S. Thiruchelvam in 2008. Our mission is to deliver a high standard of service that meets clients’ needs, supports our team’s well-being and strives for 200% client satisfaction.</p><p>We value effective communication, practical recommendations and coordinated delivery from the first conversation to the site handover.</p>
+   <div class="company-facts"><div><b>Founded</b><span>2008</span></div><div><b>Team</b><span>85+ skilled people</span></div><div><b>Head office</b><span>Bukit Batok, Singapore</span></div></div>
+  </div>
+  <details class="org-card"><summary><span><b>Our organisation</b><small>View company organisation chart</small></span><span class="service-plus">+</span></summary><img src="assets/site/organization-chart.png" alt="Whoosh Singapore organisation chart" loading="lazy"></details>
+ </div>
+</section>
+
+<section class="section pricing-section" id="pricing">
+ <div class="wrap">
+  <div class="section-heading"><div><div class="kicker"><i></i> RESIDENTIAL PAINTING</div><h2>Painting packages & add-ons.</h2></div><p>The previous site’s published residential rates are shown here for reference. Contact the team to confirm current pricing and site requirements.</p></div>
+  <div class="pricing-grid">
+   <article class="price-card"><span class="price-label">BASIC</span><h3>Nippon Matex White</h3><p>Entry level · from <b>S$280 / room</b></p><ul><li>2-room HDB <b>S$599</b></li><li>3-room HDB <b>S$649</b></li><li>4-room HDB <b>S$699</b></li><li>5-room HDB <b>S$899</b></li><li>Executive apartment <b>S$999</b></li><li>Executive maisonette <b>S$1,249</b></li></ul></article>
+   <article class="price-card"><span class="price-label">STANDARD</span><h3>Nippon Vinilex 5000</h3><p>One colour whole house · from <b>S$320 / room</b></p><ul><li>2-room HDB <b>S$649</b></li><li>3-room HDB <b>S$699</b></li><li>4-room HDB <b>Confirm rate</b></li><li>5-room HDB <b>S$999</b></li><li>Executive apartment <b>S$1,099</b></li><li>Executive maisonette <b>S$1,299</b></li></ul></article>
+   <article class="price-card"><span class="price-label">SUPERIOR</span><h3>Nippon Matex White</h3><p>Enhanced finish · from <b>S$400 / room</b></p><ul><li>2-room HDB <b>S$699</b></li><li>3-room HDB <b>S$949</b></li><li>4-room HDB <b>S$1,099</b></li><li>5-room HDB <b>S$1,249</b></li><li>Executive apartment <b>S$1,299</b></li><li>Executive maisonette <b>S$1,499</b></li></ul></article>
+   <article class="price-card price-popular"><span class="price-label">LUXURY · POPULAR</span><h3>Nippon Matex White</h3><p>Premium package · from <b>S$450 / room</b></p><ul><li>2-room HDB <b>S$1,000</b></li><li>3-room HDB <b>S$1,200</b></li><li>4-room HDB <b>S$1,350</b></li><li>5-room HDB <b>S$1,450</b></li><li>Executive apartment <b>S$1,550</b></li><li>Executive maisonette <b>S$1,900</b></li></ul></article>
+  </div>
+  <div class="addons"><b>Common add-ons</b><span>Sealer: S$50 for one room · S$150–350 whole house</span><span>Door frame: S$30 · door frame set: S$60</span><span>Anti-mould ceiling: S$50 / bedroom</span><span>Balcony: S$80–100</span><span>Major peeling & putty: S$50–300</span><span>Feature colour: S$50 / wall · S$100 / room</span><span>High ceiling over 2.8m: S$100–400</span><span>Wallpaper removal: S$50 / wall to S$100 / room</span><span>Touch-up visit: S$150–250</span></div>
+  <p class="pricing-note">The legacy pricing page lists an inconsistent amount for the Standard 4-room package, so this page shows “Confirm rate” until Whoosh verifies the current price. Published prices previously stated that GST was not charged; please confirm the current invoice terms with the team.</p>
+ </div>
+</section>
+
+<section class="section testimonials-section">
+ <div class="wrap testimonial-layout">
+  <div><div class="kicker"><i></i> PROJECT PARTNERS</div><h2>Good work is built together.</h2><p>Selected project partners and client references displayed on the existing Whoosh Singapore website.</p></div>
+  <div class="testimonial-logos"><img src="assets/testimonials/exyte.jpg" alt="Exyte Services"><img src="assets/testimonials/ocl.jpg" alt="OCL Building"><img src="assets/testimonials/t3-international.jpg" alt="T3 International"></div>
+ </div>
+</section>
+
+<section class="section careers-section" id="careers">
+ <div class="wrap careers-layout">
+  <div><div class="kicker light-kicker"><i></i> CAREERS</div><h2>Build your future<br>with Whoosh.</h2><p>Join a growing construction and building-services team. We value motivated people, support professional development and want our employees to take pride in the work they deliver.</p><a class="button button-white" href="mailto:hr@whooshsingapore.com?subject=Career%20enquiry">Send your CV <span>→</span></a></div>
+  <div class="career-points"><article><b>01</b><span><strong>Professional growth</strong><small>Opportunities to develop skills and take on new challenges.</small></span></article><article><b>02</b><span><strong>Recognition of talent</strong><small>We welcome focused people who want to contribute to meaningful projects.</small></span></article><article><b>03</b><span><strong>Work that matters</strong><small>Help maintain and improve the spaces people use every day.</small></span></article></div>
+ </div>
+</section>
+
+<section class="contact-section" id="contact">
+ <div class="wrap contact-layout">
+  <div class="contact-copy"><div class="kicker light-kicker"><i></i> START A PROJECT</div><h2>Let’s build something<br>great together.</h2><p>Request a project assessment. Share the site, scope and timing, and the team will follow up.</p>
+   <div class="contact-detail"><span>☎</span><a href="tel:+6591834050">+65 9183 4050</a></div><div class="contact-detail"><span>☎</span><a href="tel:+6560293124">+65 6029 3124</a></div>
+   <div class="contact-detail"><span>✉</span><a href="mailto:md@whooshsingapore.com">md@whooshsingapore.com</a></div><div class="contact-detail"><span>✉</span><a href="mailto:admin@whooshsingapore.com">admin@whooshsingapore.com</a></div>
+   <div class="contact-detail"><span>⌖</span><a href="https://maps.google.com/?q=The+Splendour,+31+Bukit+Batok+Crescent,+Singapore+658070" target="_blank" rel="noreferrer">The Splendour, 31 Bukit Batok Crescent<br>#01-13, Singapore 658070</a></div>
+   <div class="office-hours"><b>Office hours</b><span>Monday–Saturday · 8:00 am–7:00 pm</span><span>Sunday · Closed</span></div>
+  </div>
+  <form class="quote-form" id="quote-form">
+   <div class="form-heading"><h3>Request a project assessment</h3><p>We’ll prepare a response around your project details.</p></div>
+   <div class="form-grid">
+    <label>Your name<input required name="name" autocomplete="name" placeholder="Name"></label>
+    <label>Company name<input name="company" autocomplete="organization" placeholder="Company"></label>
+    <label>Email address<input required type="email" name="email" autocomplete="email" placeholder="Email"></label>
+    <label>Phone number<input required type="tel" name="phone" autocomplete="tel" placeholder="Phone"></label>
+    <label>Project type / service<select required name="service"><option value="">Select a service</option><option>Building & construction</option><option>Repair & redecoration</option><option>Painting & façade works</option><option>Waterproofing & sealant</option><option>Electrical & M&E</option><option>Air-conditioning</option><option>Plumbing & sanitary</option><option>Solar installation & upkeep</option><option>Demolition & reinstatement</option><option>Facilities & maintenance</option><option>ISO & EHS consultancy</option><option>Other</option></select></label>
+    <label>Project location<input name="location" placeholder="Location"></label>
+    <label class="wide">Project details<textarea required name="details" rows="4" placeholder="Tell us about the scope, site and target schedule"></textarea></label>
+    <label class="wide file-label">Upload drawings, photos or documents<input id="files" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"><small>Files stay on your device. After your email draft opens, attach them before sending.</small></label>
+   </div>
+   <div class="selected-files" id="selected-files" aria-live="polite"></div>
+   <button class="button button-red submit-button" type="submit">Prepare enquiry email <span>→</span></button>
+   <p class="form-note">Submitting opens an email draft addressed to Whoosh Singapore. Your details and files are not uploaded to this website.</p>
+  </form>
+ </div>
+</section>
 </main>
-<footer><div class="container"><div class="footer-grid">
-<div class="footer-brand">WHOOSH SINGAPORE<p>Building maintenance, repair and improvement—planned and delivered with care.</p><a href="https://whoosh-canopia.onrender.com" target="_blank" rel="noreferrer">Discover Whoosh Canopia ↗</a></div>
-<div class="footer-col"><h4>Explore</h4><a href="#services">Services</a><a href="#sectors">Who we serve</a><a href="#projects">Selected work</a><a href="#about">About Whoosh</a></div>
-<div class="footer-col"><h4>Contact</h4><a href="tel:+6560293124">+65 6029 3124</a><a href="mailto:whooshsingapore@gmail.com">whooshsingapore@gmail.com</a><a href="mailto:office.whoosh@gmail.com">office.whoosh@gmail.com</a><span>31 Bukit Batok Crescent<br>#01-03 The Splendour<br>Singapore 658070</span></div>
-<div class="footer-col"><h4>Office hours</h4><span>Monday–Saturday<br>8:00 am–7:00 pm</span><span>Sunday · Closed</span><a href="https://maps.google.com/?q=31+Bukit+Batok+Crescent+Singapore+658070" target="_blank" rel="noreferrer">Open map ↗</a></div>
-</div><div class="footnote"><span>© 2026 Whoosh Singapore Pte Ltd. All rights reserved.</span><span>*Team size figure shown on the existing Whoosh Singapore website.</span></div></div></footer>
-<a class="floating-call" href="tel:+6560293124" aria-label="Call Whoosh Singapore">☎</a>
-<script>
-const menu=document.querySelector(".menu"),links=document.querySelector(".links");
-menu.addEventListener("click",()=>{const open=links.classList.toggle("open");menu.setAttribute("aria-expanded",String(open));menu.textContent=open?"×":"☰"});
-links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{links.classList.remove("open");menu.setAttribute("aria-expanded","false");menu.textContent="☰"}));
-</script>
-</body>
-</html>
+
+<footer class="site-footer">
+ <div class="wrap footer-grid">
+  <div class="footer-brand"><a class="footer-logo" href="#home"><img src="assets/site/whoosh-logo-horizontal.png" alt="Whoosh Singapore Pte Ltd"></a><p>Integrated building, engineering and facility solutions for Singapore. Engineered for safety. Built for excellence.</p><div class="social-links"><a href="https://www.facebook.com/whooshsg1/" target="_blank" rel="noreferrer" aria-label="Whoosh Singapore on Facebook">f</a><a href="https://sg.linkedin.com/in/whoosh-singapore-pte-ltd-5575a8195" target="_blank" rel="noreferrer" aria-label="Whoosh Singapore on LinkedIn">in</a></div><a class="group-link" href="https://whoosh-canopia.onrender.com" target="_blank" rel="noreferrer">Discover Whoosh Canopia ↗</a></div>
+  <div class="footer-col"><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About us</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#industries">Industries</a><a href="#quality">Safety & quality</a><a href="#careers">Careers</a><a href="#contact">Contact us</a></div>
+  <div class="footer-col"><h4>Our services</h4><a href="#services">Building & construction</a><a href="#services">Repair & redecoration</a><a href="#services">Waterproofing & sealant</a><a href="#services">Electrical & M&E</a><a href="#services">Air-conditioning</a><a href="#services">Facility management</a><a href="#services">ISO & EHS consultancy</a><a href="#pricing">Painting prices</a></div>
+  <div class="footer-col"><h4>Contact us</h4><a href="tel:+6591834050">+65 9183 4050</a><a href="tel:+6560293124">+65 6029 3124</a><a href="mailto:md@whooshsingapore.com">md@whooshsingapore.com</a><a href="mailto:admin@whooshsingapore.com">admin@whooshsingapore.com</a><span>The Splendour<br>31 Bukit Batok Crescent<br>#01-13, Singapore 658070</span><a href="https://maps.google.com/?q=The+Splendour,+31+Bukit+Batok+Crescent,+Singapore+658070" target="_blank" rel="noreferrer">Open map ↗</a></div>
+ </div>
+ <div class="wrap footer-bottom"><span>© 2026 Whoosh Singapore Pte Ltd. All rights reserved.</span><span>Building solutions that keep Singapore moving.</span></div>
+</footer>
+<a class="floating-contact" href="#contact" aria-label="Request a project assessment">✉</a>
+<script src="app.js"></script>
+</body></html>
